@@ -1,0 +1,121 @@
+.page {
+    background-image: url(https://static.zhihu.com/heifetz/bg.8ca8122d44fc9a0f7b04.png);
+    position: relative;
+    background-color: #f3f3f3;
+    font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei, sans-serif;
+}
+
+.login {
+    /* position: relative; */
+    width: 432px;
+    height: 500px;
+    margin: 180px auto 30px auto;
+    background-color: white;
+}
+
+.login .logo {
+    height: 132px;
+    width: 100%;
+    text-align: center;
+    /* padding: 10px; */
+}
+
+.login .logo .headline {
+    /* margin-top: 50px; */
+    font-size: 72px;
+    font-weight: 600;
+    letter-spacing: 10px;
+    color: #0F88EB;
+}
+
+.login .logo .slogan {
+    font-size: 22px;
+    color: #4A90E7;
+    margin-top: 15px;
+}
+
+.login .login-content {
+    position: relative;
+    width: 100%;
+    margin: 0px auto 0px auto;
+}
+
+.login .login-content .account {
+    display: block;
+    width: 352px;
+    height: 43px;
+    margin: 20px auto 10px auto;
+    border: none;
+    border-bottom: 1px solid #E7EAF1;
+}
+
+.login .login-content .pwd {
+    display: block;
+    width: 352px;
+    height: 43px;
+    border: none;
+    border-bottom: 1px solid #E7EAF1;
+    margin: 10px auto 0px auto;
+}
+
+.login .login-content .login-option {
+    font-size: 20px;
+    position: relative;
+    width: 352px;
+    height: 50px;
+    /* line-height: 20px; */
+    margin: 10px auto 0px auto;
+}
+
+.login .login-content .login-option button {
+    font-size: 15px;
+}
+
+.login .login-content .login-option .left {
+    border: none;
+    position: absolute;
+    background-color: white;
+    color: #175199;
+    /* display: inline-block; */
+}
+
+.login .login-content .login-option .right {
+    border: none;
+    position: absolute;
+    /* float: right; */
+    right: 0;
+    background-color: white;
+    color: #8590A6;
+    height: 22px;
+}
+
+.login .login-content .dl {
+    display: block;
+    font-size: 15px;
+    margin: 0 auto 0 auto;
+    width: 352px;
+    height: 40px;
+    background-color: #0F88EB;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.login .sign {
+    border: 1px solid #E7EAF1;
+    height: 59px;
+    line-height: 40px;
+    width: 100%;
+    margin-top: 110px;
+    text-align: center;
+}
+
+.download {
+    display: block;
+    width: 432px;
+    height: 40px;
+    background-color: #8F9BB3;
+    border: none;
+    margin: 0 auto 0 auto;
+    color: white;
+}

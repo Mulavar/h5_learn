@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+}
+
+.header {
+    /* h32 */
+    position: relative;
+    height: 32px;
+    /* 底部边框：线的宽度 线的类型 线颜色*/
+    border-bottom: 1px solid #EBEBEB;
+}
+
+
+/* 子绝父相 
+    避免子盒子每次都从body定位麻烦    
+*/
+
+
+/* 
+    floal 控制左右
+*/
+
+
+/* static 标准流 */
+
+
+/* a标签不继承颜色 */
+
+.ml-10 {
+    margin-left: 10px;
+}
+
+.header a {
+    font-size: 13px;
+    color: #555555;
+    margin-right: 10px;
+}
+
+
+/* 直接使用标签名，就是标签选择器 */
+
+
+/* 类选择器 用.+class */
+
+.header .more {
+    /* a标签是行内元素，无法设置有效宽高，所以要转为行内快 */
+    display: inline-block;
+    background-color: #398BFB;
+    color: white;
+    /* 如果你的盒子没有设置高度，但是设置了行高，那该盒子的高度 = 行高 */
+    line-height: 32px;
+    width: 86px;
+    /* 文字左右剧中 */
+    text-align: center;
+}
+
+.left {
+    line-height: 32px;
+}
+
+.right {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+
+/* block 元素 居中
+    有宽度，当 margin-left 和 margin-right 为auto 就居中
+*/
+
+.logo {
+    display: block;
+    height: 129px;
+    /* 四个参数，上右下左 */
+    /* margin: 1px 2px 3px 4px; */
+    /* 两个参数 上下 左右*/
+    /* margin: 1px 3px ; */
+    margin: 170px auto 20px auto;
+    /* 一个参数： 上下左右相同 */
+}
+
+
+/* 盒子的实际高度 = height + padding + border */
+
+.search {
+    position: relative;
+    width: 640px;
+    border: 1px solid #ccc;
+    height: 40px;
+    margin: 0 auto;
+}
+
+.search button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    background-color: #3388FF;
+    color: white;
+    /* 按钮的效果 设置为none */
+    border: none;
+    width: 102px;
+    font-size: 16px;
+}
+
+.search input {
+    /* width: calc(100%-102); */
+    padding: 0;
+    width: 538px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+}
+
