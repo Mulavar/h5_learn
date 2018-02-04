@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+}
+
+.bx {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* 
+父盒子控制自元素溢出显示
+overflow: hidden 
+*/
+
+
+/* div>block width=100% */
+
+.banner {
+    position: relative;
+    ul {
+        /* 新居中：定位居中*/
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 20px;
+        li {
+            width: 20px;
+            height: 20px;
+            float: left;
+            margin-left: 10px;
+            margin-right: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+        /*  伪类 鼠标悬停 */
+        li:hover {
+            background-color: gray;
+            border-width: 1px;
+            border-color: white;
+            border-style: solid;
+            width: 18px;
+            height: 18px;
+            border:1px solid white;
+        }
+    }
+}
+
+.nav {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    height: 30px;
+    line-height: 30px;
+    .logo {
+        float: left;
+        height: 20px;
+        padding: 30px 0;
+    }
+    .nav-bar {
+        position: absolute;
+        right: 0;
+        top: 0;
+        list-style: none;
+        li {
+            /* 浮动，可以将元素转化为行内快，并且靠左对其,会脱离标准流 */
+            float: left;
+            line-height: 21px;
+            font-size: 14px;
+            padding: 31px 24px 30px;
+            a {
+                color: #999;
+                text-decoration: none;
+            }
+        }
+    }
+}
