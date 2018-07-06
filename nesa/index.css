@@ -1,0 +1,218 @@
+body, ul, li, h1{
+    margin: 0;
+    padding: 0;
+}
+
+
+li{
+    list-style: none;
+}
+
+body{
+    width: 964px;
+    margin: 0 auto;
+}
+.header{
+    background: url('http://nesa.zju.edu.cn/images/bg-header.jpg') repeat-x;
+    width: 960px;
+    margin: 0 auto;
+    padding: 18px 0 0 0;
+}
+
+.logo{
+    display: block;
+    width: 296px;
+    height: 74px;
+    margin: 0 auto 22px;
+    overflow: hidden;
+}
+
+.header ul{
+    margin: 0 atuo;
+    width: 960px;
+    padding: 15px 0 22px;
+    text-align: center;
+    height: 37px;
+    overflow: hidden;
+}
+
+.header ul li.selected{
+    background: url('http://nesa.zju.edu.cn/images/bg-menu.png') no-repeat top center
+}
+
+.header ul li:first-child{
+    margin: 0 0 0 35px;
+}
+.header ul li{
+    font-family:  Tahoma, "Trebuchet MS", Verdana, Cambria, Calibri, Arial, Microsoft YaHei,\\5FAE\8F6F\96C5\9ED1, sans-serif;  
+    float: left;
+    list-style: none;
+    margin: 0 0 0 80px;
+    padding: 0;
+}
+
+.header ul li a{
+    color: #588181;
+    text-decoration: none;
+    display: block;
+    height: 37px;
+    line-height: 40px;
+    font-size: 14px;
+}
+
+.section{
+    background: url('http://nesa.zju.edu.cn/images/index-sec.png') no-repeat center top;
+    height: 520px;
+    width: 960px;
+    margin: 0 auto;
+
+}
+
+.section div{
+    width: 940px;
+    height: 370px;
+    margin: 0 auto;
+    padding: 50px 0 0 0;
+}
+
+.section .welcome{
+    padding: 33px 22px 33px 18px;
+    width: 371px;
+    height: 306px;
+    margin: 0 0 0 10px;
+    background: url(http://nesa.zju.edu.cn/images/bg-heading.png) repeat;
+    font-family: Tahoma, "Trebuchet MS", Verdana, Cambria, Calibri, Arial, Microsoft YaHei,\\5FAE\8F6F\96C5\9ED1, sans-serif;
+}
+
+.section h1{
+    font-size: 30px;
+    font-weight: normal;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.section p{
+    /* background-color: #ffffff; */
+    line-height: 22px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: justify;
+    margin-top: 20px;
+
+}
+
+.info{
+    width: 960px;
+    height: 558px;
+    margin: 0 0 0 20px;
+    padding: 33px 0 27px 0;
+}
+
+.info .article{
+    width: 460px;
+    height: 463px;
+    float: left;
+}
+
+.info h2{
+    color: #588181;
+    font-size: 24px;
+    font-weight: normal;
+    padding: 0 0 24px;
+    margin: 0;
+}
+
+.info .article p{
+    margin: 0;
+}
+.article strong{
+    font-weight: bold;
+    font-family: Tahoma, "Trebuchet MS", Verdana, Cambria, Calibri, Arial, Microsoft YaHei,\\5FAE\8F6F\96C5\9ED1, sans-serif;
+
+}
+
+.article p{
+    line-height: 30px;
+    font-size: 14px;
+    color: #767676;
+}
+
+.article p a{
+    color: #767676;
+}
+
+.article .line1{
+    margin-top: 40px;
+    border-bottom: 2px solid #000;
+}
+
+.article .announcement{
+    font-family: Tahoma, "Trebuchet MS", Verdana, Cambria, Calibri, Arial, Microsoft YaHei,\\5FAE\8F6F\96C5\9ED1, sans-serif;
+    color: #f00;
+}
+
+.info .research{
+    float: left;
+    width: 480px;
+}
+
+/* .research ul{
+    float: left;
+} */
+.research ul li{
+    float: left;
+    margin: 0 10px 22px 10px;
+}
+
+.box {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+}
+
+.show {
+    position: relative;
+    background: #94acb3;
+    height: 37px;
+    line-height: 37px;
+    font-weight: normal;
+    font-size: 16px;
+    width: 218px;
+    text-align: center;
+    text-shadow: 1px 1px 0 #768a8f;
+    margin: 0;
+}
+
+.research .more{
+    width: 218px;
+    height: 218px;
+    position: absolute;
+    background: url('http://nesa.zju.edu.cn/images/bg-heading.png');
+    font-family: Tahoma, "Trebuchet MS", Verdana, Cambria, Calibri, Arial, Microsoft YaHei;
+    font-size: 14px;
+    font-weight: normal;
+    color: #767676;
+    text-align: center;
+    line-height: 30px;
+    margin: 0;
+    display: none;
+}
+
+.research .more p{
+    margin: 5px 0 0 0;
+}
+.research .detail{
+    text-decoration: none;
+    color: #767676;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0;
+}
+
+.show:hover +.more {
+    display: block;
+}
