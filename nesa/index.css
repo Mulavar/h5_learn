@@ -3,7 +3,6 @@ body, ul, li, h1{
     padding: 0;
 }
 
-
 li{
     list-style: none;
 }
@@ -12,6 +11,7 @@ body{
     width: 964px;
     margin: 0 auto;
 }
+
 .header{
     background: url('http://nesa.zju.edu.cn/images/bg-header.jpg') repeat-x;
     width: 960px;
@@ -213,6 +213,6 @@ body{
     margin: 0;
 }
 
-.show:hover +.more {
+.research li:hover .more {
     display: block;
 }

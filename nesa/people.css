@@ -49,8 +49,10 @@ a{
 
 .header ul li a{
     color: #588181; 
+    /* font-size: 14px; */
     line-height: 37px;
     height: 37px;
+    
 }
 
 .box{
