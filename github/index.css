@@ -1,4 +1,4 @@
-body, ul, a{
+body, ul, a, ol{
     padding: 0;
     margin: 0;
     font-size: 14px;
@@ -119,4 +119,26 @@ input{
     border-radius: 10px;
     font-size: 12px;
     background-color: rgba(27,31,35,0.08);
+}
+
+.container .contrib li{
+    border: 1px solid #e1e4e8;
+    border-radius: 4px;
+    display: inline-block;
+    width: 310px;
+    height: 89px;
+    padding: 16px;
+    margin: 1px 0px 16px 16px;
+}
+
+.container .contrib span{
+    color: #0366d6;
+    font-weight: 600;
+    width: 100%;
+    height: 100%;
+}
+
+.container .contrib .sep{
+    margin: 8px 0 16px 0;
+    height: 26px;
 }
